@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+.upperHeader{
+    width: 100%;
+    position: fixed;
+    z-index: 30;
+}
+
+#upperHeader1 {
+  transition: transform 1s ease;
+  transform: translateY(0);
+}
+
+#upperHeader1.moveDown {
+  transform: translateY(100px); /* podesi koliko da se podigne */
+}
+
+.upper1ColorChange {
+  background-color: #ff9c40; /* početna boja */
+  transition: background-color 0.5s ease; /* trajanje i tip animacije */
+}
+
+.upper1ColorBack {
+  background-color: white; /* početna boja */
+  transition: background-color 0.5s ease; /* trajanje i tip animacije */
+}
+
+.upper1Hidden{
+    display: none;
+}
+
+.upperHeaderX{
+    height: 60px;
+}
+
+.header{
+    height: 700px;
+    background-color: #ff9c40;
+    z-index: 10;
+    width: 100%;
+}
+
+.mainTitleBig{
+    width:100%;
+    text-align: center;
+    color: #FFF4E6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.mainTitleSmall{
+     width:100%;
+    text-align: center;
+    color: #FFF4E6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.mainTitle{
+    padding-top: 200px;
+    text-align: center; /* centriranje inline teksta */
+        position: fixed;
+}
+
+.containerApp{
+     z-index: 1;            /* manji z-index od headera */
+  position: relative;
+    border-bottom: 2px solid #ff9c40;
+  
+}

@@ -1,0 +1,22 @@
+#rightBar{
+    margin-top: 20px;
+    background-color: #ff7b00;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+#balanceCounter{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    color: gray;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+#orderedItems{
+    padding: 20px;
+    color: gray;
+    font-weight: bold;
+}

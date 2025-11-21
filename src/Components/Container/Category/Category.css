@@ -1,0 +1,61 @@
+.category{
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.categoryProducts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 kolona iste širine */
+    gap: 50px; /* razmak između elemenata */
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+img{
+    height: 150px;
+}
+
+#categoryTitle{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+margin-top: 10px;
+}
+
+#seeAllTitle{
+    width: 30%;
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 10px;
+    color: rgb(131, 131, 255);
+    cursor: pointer;
+}
+
+.categoryTittles{
+    color: gray;
+    font-weight: bold;
+}
+
+.categoryItems{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.btn-primary{
+/*     background-color: #ff7b00; */
+    border: none;
+}
+
+#proceedOrder{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
